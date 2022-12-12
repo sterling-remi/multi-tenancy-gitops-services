@@ -877,7 +877,7 @@ ibm-pem-standard-vbudi:
         capacity: 100Mi
         storageclass: slow
     nonprod:
-      enable: true #set to true to deploy non prod pcm
+      enable: false #set to true to deploy non prod pcm
       setupfile:
         acceptLicence: true #We should make accept-license should be true for pcm installation
         cm:
